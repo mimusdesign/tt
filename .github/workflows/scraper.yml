@@ -2,7 +2,7 @@ name: Scraper Trinidad and Tobago
 
 on:
   schedule:
-    - cron: '20 20 * * 1'
+    - cron: '6 20 * * *'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
